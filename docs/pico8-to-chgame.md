@@ -1,6 +1,6 @@
 # Porting a PICO-8 cart to CHGame: how Cheleste was done
 
-This is a record of how Celeste Classic's Lua became native C++ on CHGame. It focuses on what will matter the next time a PICO-8 cart is ported. Cheleste's own details are in [../Cheleste/NOTES.md](../Cheleste/NOTES.md).
+This is a record of how Celeste Classic's Lua became native C++ on CHGame. It focuses on what will matter the next time a PICO-8 cart is ported. Cheleste's own details are in [../Cheleste/NOTES.md](https://github.com/bateske/CHeleste).
 
 ## Why it can work at all
 
