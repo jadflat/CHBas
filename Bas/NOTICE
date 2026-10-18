@@ -1,5 +1,7 @@
 BAS for CHGame
 
+The port: Copyright 2026 Jadflat. Ported with the help of Claude (Anthropic).
+
 Port: the C++ framework (Fix.*, P8.*) and the tools come from Cheleste,
 Copyright 2026 bateske (MIT, ../LICENSE).
 

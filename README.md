@@ -90,3 +90,5 @@ The original cart is not in the repository; the data generated from it is.
   framework, tools and porting guide this port is built on, and for
   [CHGame](https://github.com/bateske/CHGame).
 - **[Lexaloffle](https://www.lexaloffle.com/pico-8.php)**, for PICO-8.
+
+Ported by Jadflat with the help of Claude (Anthropic).
