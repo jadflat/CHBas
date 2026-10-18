@@ -4,7 +4,7 @@
   "author": "yokoboko (port: CHGame)",
   "genre": "Arcade",
   "description": "BAS, yokoboko's PICO-8 game, ported to CHGame: jump from wall to wall up the tower, past the saws, ahead of the rising saw trap.",
-  "license": "yokoboko's game; see NOTICE",
+  "license": "CC BY-NC-SA 4.0 (yokoboko's game); see NOTICE",
   "licenseFiles": [
     "NOTICE"
   ],

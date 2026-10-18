@@ -1,9 +1,22 @@
 BAS for CHGame
 
-The game, its art and sound: "BAS" by yokoboko, a PICO-8 cart
-(assets/bas.p8), translated to C++. A free, non-commercial port: keep this
-credit with it.
+Original game: "BAS" (B.A.S., Birds and Saws) by yokoboko, a PICO-8 cart
+  https://www.lexaloffle.com/bbs/?tid=54986  (cart #bas-9)
+  https://github.com/yokoboko/bas-pico-8
+  Licence: Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+  https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Changes: the cart's Lua was translated to C++ for the CHGame handheld, and
+its sprites, map and sound were converted to CHGame's formats
+(src/assets, src/audio, generated from assets/bas.p8). Controls, saving
+and the pause menu were adapted to CHGame. Bas/NOTES.md lists the details.
+
+Under CC BY-NC-SA 4.0 these game parts of the port (assets/bas.p8, Game.*,
+src/assets, src/audio, docs/cart.png) are licensed under the same licence:
+you may share and adapt them for non-commercial purposes only, crediting
+yokoboko, linking the licence, saying what you changed, and sharing your
+changes under the same licence. Keep this notice with them.
 
 The port's framework (Fix.*, P8.*, the tools) comes from Cheleste
-(github.com/bateske/CHeleste), and the CHGame libraries are their own
-projects' (chgame/ and its licences).
+(github.com/bateske/CHeleste, MIT: ../LICENSE), and the CHGame libraries
+are their own projects' (chgame/ and its licences).

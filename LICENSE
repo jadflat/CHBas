@@ -20,7 +20,14 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-This licence covers the port's code and tools. Celeste Classic's sprites,
-map, music and sound effects (Cheleste/src/assets, Cheleste/src/audio,
-generated from its PICO-8 cart) are Maddy Thorson and Noel Berry's and are
-not covered by it: see Cheleste/NOTICE.
+This licence covers the port's framework and tools: Bas/Fix.*, Bas/P8.*,
+the tools/ folders and the build scripts. It does NOT cover the game itself.
+
+The game, BAS by yokoboko, is licensed under Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0,
+https://creativecommons.org/licenses/by-nc-sa/4.0/). The parts translated or
+generated from its cart (assets/bas.p8, Bas/Game.*, Bas/src/assets,
+Bas/src/audio, Bas/docs/cart.png) are under that licence too: see Bas/NOTICE.
+
+chgame/ holds the CHGame libraries and tools, under their own licences
+(chgame/LICENSE, chgame/NOTICE).
