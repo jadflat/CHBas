@@ -1,5 +1,8 @@
 BAS for CHGame
 
+Port: the C++ framework (Fix.*, P8.*) and the tools come from Cheleste,
+Copyright 2026 bateske (MIT, ../LICENSE).
+
 Original game: "BAS" (B.A.S., Birds and Saws) by yokoboko, a PICO-8 cart
   https://www.lexaloffle.com/bbs/?tid=54986  (cart #bas-9)
   https://github.com/yokoboko/bas-pico-8

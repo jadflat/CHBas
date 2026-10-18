@@ -1,0 +1,30 @@
+# The README's GIF (`cl gif`): the title, a climb up the tower, the game over.
+wait 200
+rec start 3
+wait 60
+rec stop 01_title
+tap RIGHT
+rec start 3
+wait 18
+tap LEFT
+wait 18
+tap LEFT
+wait 18
+tap RIGHT
+wait 18
+tap RIGHT
+wait 18
+tap LEFT
+wait 18
+tap RIGHT
+wait 18
+tap LEFT
+wait 18
+tap LEFT
+wait 18
+tap RIGHT
+wait 30
+rec stop 02_climb
+rec start 4
+wait 260
+rec stop 03_gameover

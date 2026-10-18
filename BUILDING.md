@@ -24,14 +24,25 @@ commit; `python tools/vendor_chgame.py <CHGame checkout>` refreshes them).
 
 ## From the cart
 
-The cart is in `assets/bas.p8` (from `bas.p8.png`: `shrinko8
-bas.p8.png bas.p8`, or in PICO-8 `load` then `save bas.p8`). The files
-made from it are committed; to make them again:
+The cart is not in the repository; the files made from it are. To make them
+again, put `bas.p8` in `assets/` (in PICO-8: `load #bas-9`, then
+`save bas.p8`; or from `bas.p8.png`: `shrinko8 bas.p8.png bas.p8`) and run:
 
 ```bash
 python tools/p8extract.py      # Bas/src/assets: the sheet, the map's corner, OPAQUE, the palette
 python tools/p8audio.py        # Bas/src/audio: the effects and songs
 ```
+
+## Checking against the original
+
+With the cart in `assets/` and `pip install lupa`:
+
+```bash
+python tools/ref/compare.py
+```
+
+That runs the cart's own Lua and the port side by side, frame by frame
+(`./cl test` runs a short version). Bas/NOTES.md has what it checks.
 
 ## The cart for the card
 
