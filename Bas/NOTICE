@@ -11,7 +11,7 @@ its sprites, map and sound were converted to CHGame's formats
 (src/assets, src/audio, generated from assets/bas.p8). Controls, saving
 and the pause menu were adapted to CHGame. Bas/NOTES.md lists the details.
 
-Under CC BY-NC-SA 4.0 these game parts of the port (assets/bas.p8, Game.*,
+Under CC BY-NC-SA 4.0 these game parts of the port (Game.*,
 src/assets, src/audio, docs/cart.png) are licensed under the same licence:
 you may share and adapt them for non-commercial purposes only, crediting
 yokoboko, linking the licence, saying what you changed, and sharing your
@@ -20,3 +20,6 @@ changes under the same licence. Keep this notice with them.
 The port's framework (Fix.*, P8.*, the tools) comes from Cheleste
 (github.com/bateske/CHeleste, MIT: ../LICENSE), and the CHGame libraries
 are their own projects' (chgame/ and its licences).
+
+The original cart (assets/bas.p8) is not included in this repository:
+get it from the link above to rebuild the generated files (BUILDING.md).
