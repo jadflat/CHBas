@@ -1,0 +1,9 @@
+BAS for CHGame
+
+The game, its art and sound: "BAS" by yokoboko, a PICO-8 cart
+(assets/bas.p8), translated to C++. A free, non-commercial port: keep this
+credit with it.
+
+The port's framework (Fix.*, P8.*, the tools) comes from Cheleste
+(github.com/bateske/CHeleste), and the CHGame libraries are their own
+projects' (chgame/ and its licences).

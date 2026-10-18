@@ -1,0 +1,26 @@
+# Boot: the splash and its fade, the title, a game started, a few jumps, a death.
+cal
+wait 40
+snap splash
+wait 100
+snap fading
+wait 60
+snap title
+tap RIGHT
+wait 20
+snap jump1
+tap LEFT
+wait 20
+tap LEFT
+wait 20
+tap RIGHT
+wait 20
+snap climbing
+perf play
+wait 400
+snap dead
+wait 60
+snap gameover
+tap A
+wait 60
+snap again

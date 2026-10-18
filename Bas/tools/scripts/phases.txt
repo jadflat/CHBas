@@ -1,0 +1,30 @@
+# Render time by phase: the splash, the title, play, the death and game over, the restart's transition.
+cal
+wait 60
+perf splash
+wait 140
+perf fade
+wait 30
+perf title
+tap RIGHT
+wait 10
+tap LEFT
+wait 10
+tap RIGHT
+wait 10
+tap LEFT
+wait 10
+tap LEFT
+wait 10
+tap RIGHT
+wait 10
+perf play
+wait 300
+perf dying
+wait 80
+perf gameover
+tap A
+wait 25
+perf transition
+wait 60
+perf title2

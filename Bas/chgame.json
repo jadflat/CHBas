@@ -1,0 +1,26 @@
+{
+  "id": "bas",
+  "title": "BAS",
+  "author": "yokoboko (port: CHGame)",
+  "genre": "Arcade",
+  "description": "BAS, yokoboko's PICO-8 game, ported to CHGame: jump from wall to wall up the tower, past the saws, ahead of the rising saw trap.",
+  "license": "yokoboko's game; see NOTICE",
+  "licenseFiles": [
+    "NOTICE"
+  ],
+  "cartImage": "docs/cart.png",
+  "buttons": [
+    {
+      "control": "LEFT / A",
+      "action": "Jump to the left wall"
+    },
+    {
+      "control": "RIGHT / B",
+      "action": "Jump to the right wall"
+    },
+    {
+      "control": "START",
+      "action": "Pause; hold 3 s for the menu"
+    }
+  ]
+}
