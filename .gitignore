@@ -10,3 +10,6 @@ Cheleste/tools/chsim/build/
 Cheleste/tools/tests/build/
 __pycache__/
 *.pyc
+
+# packed .CHG files: published as GitHub releases
+/dist/
