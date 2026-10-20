@@ -1,6 +1,19 @@
+This repository has three parts, each under its own licence:
+
+1. The port's own code (below): MIT, by Jadflat.
+2. chgame/: the CHGame framework and tools by Kevin Bates (bateske),
+   Apache-2.0. It is Kevin's work, vendored unchanged: see chgame/LICENSE and
+   chgame/NOTICE. The port is built on his CHGame board package and tools.
+3. The game itself: not covered by this file. See the NOTICE in the game's
+   sketch folder for its author and licence.
+
+----------------------------------------------------------------------------
+Part 1: the port's own code
+----------------------------------------------------------------------------
+
 MIT License
 
-Copyright (c) 2026 Kevin Bates, Jadflat
+Copyright (c) 2026 Jadflat
 Copyright (c) 2026 Jadflat
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -21,7 +34,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-This licence covers the port's framework and tools: Bas/Fix.*, Bas/P8.*,
+This (MIT) licence covers the port's own code, not chgame/ and not the game: Bas/Fix.*, Bas/P8.*,
 the tools/ folders and the build scripts. It does NOT cover the game itself.
 
 The game, BAS by yokoboko, is licensed under Creative Commons
