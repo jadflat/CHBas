@@ -92,3 +92,5 @@ The original cart is not in the repository; the data generated from it is.
 - **[Lexaloffle](https://www.lexaloffle.com/pico-8.php)**, for PICO-8.
 
 Ported by Jadflat with the help of Claude (Anthropic).
+
+Built on CHGame, Copyright 2026 Kevin Bates (bateske), Apache-2.0: the framework is vendored in chgame/ (see chgame/NOTICE and chgame/LICENSE).

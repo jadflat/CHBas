@@ -28,3 +28,5 @@ are their own projects' (chgame/ and its licences).
 
 The original cart (assets/bas.p8) is not included in this repository:
 get it from the link above to rebuild the generated files (BUILDING.md).
+
+Built on CHGame, Copyright 2026 Kevin Bates (bateske), Apache-2.0: the framework is vendored in chgame/ (see chgame/NOTICE and chgame/LICENSE).
